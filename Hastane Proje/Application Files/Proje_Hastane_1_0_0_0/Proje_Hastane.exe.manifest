@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Proje_Hastane.exe" version="1.0.0.0" publicKeyToken="4fabc32be32749f7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Proje_Hastane" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Proje_Hastane.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Proje_Hastane.exe" size="2974720">
+      <assemblyIdentity name="Proje_Hastane" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tA6hJdloYqX7501WupEC41f5UU+fPVmLplYdH++u8XA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Proje_Hastane.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MTNOKR\Metin" issuerKeyHash="219e96edba6f7b75c82675ca02006647bf5c7e67" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LadPylPvUD8LrGIqo3V6f1rk4XfkYE84DKuHTlPk2bU=</DigestValue></Reference></SignedInfo><SignatureValue>slop6qeuLwEUHiwKG7kKxBTKoe6qcTrFXhcVUmHf2VSzShAwxnn8dZhgLWNjTI9Vwc1xre/c1zXfaINVXfCbl6lttiztvm1RvZsKVRbbnAhFdKGQNDUdj1/b3vr0+K+iZmMaT7pukHYp3XsuI8x6VGP7dVt9RPFeEHUK8zr0G8w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xY4g80+dGIxkoLdUUL8cj6wC55798DfVtdR9M2JQqFdGmZL3wwJ3CBvthY8vKFpd4JbZ9xJ4U5CgWuHNvO4ofGHptx4/E4kS0xUD9rVzEXQZ2EU40ObrjjI+6rUL5JTIA3R9uH2M1XGsnP/5vCNAAtPTy2jr4GWOS5zKoPgGnTk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b5d9e4534e87ab0c384f60e477e1e45a7f7a75a32a62ac0b3f50ef53ca4fa72d" Description="" Url=""><as:assemblyIdentity name="Proje_Hastane.exe" version="1.0.0.0" publicKeyToken="4fabc32be32749f7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MTNOKR\Metin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3DUaMcC/X/9xvMI+3n+kxrFcL9wLqtHnjm5eDcLsH6M=</DigestValue></Reference></SignedInfo><SignatureValue>LEumBA7iUcYY/nefjme3GtYC/a7BcW+UMj7GxXJztcTgfGugKA/VcYQeafTiWP1kiXS+ogGOK5uNmRpl/9IrLnJ5UPTgWqSO0B+V6UL2Za00l/oXMHtn1jHklGEwlPg5wdlUvV0aYIgxUhCTOd2VQRbmjmuiV96hFWzz28HK8OM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xY4g80+dGIxkoLdUUL8cj6wC55798DfVtdR9M2JQqFdGmZL3wwJ3CBvthY8vKFpd4JbZ9xJ4U5CgWuHNvO4ofGHptx4/E4kS0xUD9rVzEXQZ2EU40ObrjjI+6rUL5JTIA3R9uH2M1XGsnP/5vCNAAtPTy2jr4GWOS5zKoPgGnTk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQMW0WmdE91YVKIjNmg1Si4TANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgATQBUAE4ATwBLAFIAXABNAGUAdABpAG4wHhcNMjIwNzA3MTAxNDIyWhcNMjMwNzA3MTYxNDIyWjAjMSEwHwYDVQQDHhgATQBUAE4ATwBLAFIAXABNAGUAdABpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMWOIPNPnRiMZKC3VFC/HI+sAuee/fA31bXUfTNiUKhXRpmS98MCdwgb7YWPLyhaXeCW2fcSeFOQoFrhzbzuKHxh6bcePxOJEtMVA/a1cxF0GdhFONDm644yPuq1C+SUyAN0fbh9jNVxrJz/+bwjQALT08to6+BljkucyqD4Bp05AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAdT9joDfMKjhBpi6K6L+NNm9OODv9liY4adN83ix2Z3k7/fNKdcWOC4liNxh8hmVszl3QRy3+HVcHCOoNuO1qH6PxtvbeOyZIo39ymwQcRqENygjqTJiLz8vmdsGq860Yv1IqW6vp+EtCA5+ild1lm7mdEJr02pTLEDk5Gzz3lDk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
